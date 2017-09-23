@@ -1,8 +1,141 @@
+/*  NO BOOTLEG WAS USED  */
 head{
-	
+	background-color: #0B0C10;
 }
-h1 {
-	background-color: Crimson;
+/*  Main Header, Consistent each page */
+.main-header {
+	background-color: #0B0C10;
 	text-align: center;
+	/*  Cam't link the font right */
+	font-family: 'Rock Salt';
+	font-size: 60px;
+	color: #66FCF1;
+	margin: 3px;	
+	/* ADDED BORDER RADIUS TO MAIN HEADER FOR EACH PAGE */
+	border-radius: 12px;
+}
+/* Subscript for main header on each page */
+.subscript{
+	font-size: 20px;
+}
+/*  Image in header for each page. Will change to collage */
+#collage{
+	/* Border stle? */
+	border-style: solid;
+	padding-top:10px;
+	display: center;
+	background-color: black;
+	height: 40%;
+	width: 100%;
+}
+/* Nav bar for each page */
+.nav {
+	list-style-type: none;
+	margin: auto;
+	padding: 0;
+	text-align: center;
+	background-color: #1D2731;
+	font-size: 20px;
+	font: white;
+	text-decoration: none;
+	overflow: hidden;
+	width: 90%;
+	top: 150px;
+	border-bottom: gold;
+	border-radius: 12px;
+	width: 95%;
+}
+.nav a{
+	float:left;
+	display: block;
+	padding: 14px 16px;
+	text-align:center;
+	text-decoration: none;
+}
+/*  To make a fixed scroll bar 
+.nav {
+	position: fixed;
+}
+*/
+/* MAIN HEADER ID
+#main-header{
+	margin-top: 5px;
+	border-radius: 12px;
+}
+*/
+p {
+	color:#66FCF1;
+	font-size: 1.5em;
+}
+li {
+	float: left;
+	border-right: 1px solid #bbb;
+}
+li a{
+	display: block;
+	text-align: center;
+	padding: 14px 16px;
+}
+
+#home,#cheese,#awful,#wtf,#gross,#classic,#atoz,#game,#roulette,#about a:link{
+	background-color: #66FCF1;
+	color: #0B0C10;
+	padding-left: 25px;
 
 }
+ 
+
+
+header {
+		text-align: center;
+}
+body{
+	background-color: #0B0C10;
+	
+}
+
+#intro-p{
+	text-align: center;
+}	
+#welcome-head{
+	text-align: center;
+	font-family: Bad Script;
+	color: #45A29E;
+	background-color: #1F2833;
+	word-spacing: .3em;
+	letter-spacing: 0.3em;
+	font-size: 250%;
+	border-style: outset;
+    padding-top: 1%;
+}
+#grosshd{
+	font-family: Nosifer;
+	background-color: black;
+	color:crimson;
+}
+/*  Main Footer for each page */
+#main-footer{
+	text-align: center;
+	}
+#home-link{
+	color: white;
+}
+#cheesy{
+	text-decoration: none;
+}
+/*  CLASS EXAMPLE OF MEDIA QUERIE  */
+@media screen and (min-width: 400px) {
+	#test{
+		width: 75%;
+		height: 50px;
+		background-color: crimson;
+		color: green;
+		margin-left: 50%;
+}
+.navbar{
+	width: 10%;
+	position: relative;
+}
+
+
+
