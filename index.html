@@ -1,24 +1,169 @@
 <!DOCTYPE html>
 <html>
+<!-- Copy Entire header to keep constant  -->
 <head>
+<!-- Meta keywords -->
+  <meta charset="utf-8">
+  <meta name="description" content="Enjoy watching free movies with no sign-up. Awesome movies inspired by Alan Smithee that are fan favorites, cheesy, god awful, mind boggling, or downright disgusting.">
+  <meta name="distribution" content="web">
+  <meta name="author" content="Alan Smithee">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <meta http-equiv="Cache-Control" content="no-store">
+  <meta http-equiv="Cache-Control" content="no-cache">
+  <meta http-equiv="Pragma" content="no-cache">
+  <meta http-equiv="expires" content="Fri, 18 Jul 2014 1:00:00 GMT">
+<!--  TITLE OF PAGE  -->
 	<title>AlanSmitheePicks.com</title>
+<!-- Google fonts, link to style.css -->
 	<link rel="stylesheet" type="text/css" href="style.css">
-	<link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Bad+Script|Butcherman|Cinzel+Decorative|Courgette|Creepster|Dancing+Script|Eater|Finger+Paint|Marck+Script|Megrim|Monofett|Monoton|Nosifer|Pacifico|Permanent+Marker|Rock+Salt|Sedgwick+Ave|Sedgwick+Ave+Display|Sofia|Walter+Turncoat" rel="stylesheet"> 
+<script
+        src="https://code.jquery.com/jquery-3.2.1.js"
+        integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+        crossorigin="anonymous"></script>
 </head>
 <body>
-  <h1>Alan Smithee Picks <sub>A complete (shite) movie list.</sub></h1>
-  <nav> 
-    <a href="/aboutme">About Me</a>
-    <a href="/projects">Projects</a>
-    <a href="/workexp">Work Experience</a>
-  </nav>
-	
-
-
-
-
-
-
-
+<!--  MAIN HEADER FOR EACH PAGE  -->
+<div class="main-header">
+  <header>
+    <h1 class="main-header">Alan Smithee Picks <br><sub class="subscript">A complete movie list of Garbage.</sub></h1>
+  </header>
+</div>
+<!--  MAIN NAV BAR -->
+<div class="dropdown">
+  <button onclick="myFunction()" class="dropbtn">Menu <img  src="icons/menu.png"></button>
+    <div id="myDropdown" class="dropdown-content">
+      <a class="topNavHome" id="current0" href="https://www.alansmitheepicks.com"><img src="icons/home.png" title="Home" alt="Home"><br>Home</a>
+      <a id="topNavFav" href="favorites.html"><img src="icons/fav.png" title="Favorites" alt="Favorites"><br>Favorites</a>
+      <a id="topNavCheesy" href="cheesy.html"><img src="icons/cheese.png" title="Cheesy" alt="Cheesy"><br>Cheesy</a>
+      <a id="topNavGod" href="godawful.html"><img src="icons/godawful.png" title="God Awful" alt="God Awful"><br>God awful</a>
+      <a id="topNavWTF" href="wtf.html"><img src="icons/wtf.png" title="WTF" alt="WTF?!"><br>W...T...F?!</a>
+      <a id="topNavGross" href="gross.html"><img src="icons/gross.png" title="Gross" alt="Gross"><br>Gross</a>
+      <a id="topNavClassic" href="classic.html"><img src="icons/classic.png" title="Classic" alt="Classics"><br>Classic</a>
+      <a id="topNavAlpha" href="atoz.html"><img src="icons/atoz.png" title="A to Z" alt="Search A-Z"><br>A to Z</a>
+      <a id="topNavGame" href="game.html"><img src="icons/game.png" title="Game" alt="Game"><br>Game</a>
+      <a id="topNavRoul" href="roulette.html"><img src="icons/roulette.png" title="Roulette" alt="Roulette"><br>Roulette</a>
+      <a id="topNavDonate" href="donate.html"><img src="icons/paypal.png" title="Donate" alt="Donate"><br>Donate</a>
+      <a id="topNavAbout" href="about.html"><img src="icons/clapper.png" title="About Us" alt="Who is Alan Smithee?"><br>About</a>
+    </div>
+</div>
+<!--  End of header copy  -->
+<br>
+<br>
+<div> 
+  <p id=intro-p>
+    Check out all these wonderful horrible films and trailers that are sure to bring a smile to your face.</p>
+</div>
+<!--  FAVORITES  -->
+<div class="container">
+  <p>Some of our <a href="favories.html" id="favoritesText">favorites</a>, unfortunately.</p>
+  <a href="https://drive.google.com/file/d/0By5BTox4SLgUSG43NEpYNDZ1TWs/view" target="_blank"><img class="poster" src="images/arrival.png"></a>
+  <a href="https://cmovieshd.com/movie/who-framed-roger-rabbit/watch/openload-0.html" class="btn-eps first-ep" target="_blank"><img class="poster" src="images/whoFramed.png"/></a>
+  <a href="https://www.youtube.com/watch?v=GHDudCPLtRs" target="_blank" alt="Re-Animator"><img class="poster" src="images/reAnimator.png"/></a>
+  <a href="https://drive.google.com/file/d/0B2t4bH8AGFHtX3N1Ykk2NmJuaHM/edit" target="_blank" alt="Hellboy"><img class="poster" src="images/hellboy.png"/></a>
+  <a href="https://drive.google.com/file/d/0B275-opOr_vbUkRiVExRaFdMc3c/view" target="_blank" alt="Drag Me to Hell"><img class="poster" src="images/dragMe.png"/></a>
+  <a href="https://drive.google.com/file/d/0B9E1WFmwDOODaVplNV9PNG5yZFk/view" target="_blank" alt="Office Space"><img class="poster" src="images/officeSpace.png"/></a>
+  <a href="https://oload.info/embed/DreYsz0RH8Y/Spider-Man_Homecoming_%282017%29_%5B1080p%5D_BluRay_H264_AAC-RARBG_mp4" target="_blank"><img class="poster" alt="Spiderman Homecoming" src="images/homecoming.png"/></a>
+  <a href="https://oload.info/embed/tEnhYxFK7S4/Baby_Driver_%282017%29_%5B1080p%5D_BluRay_x264-%5BYTS_AG%5D_mp4" target="blank"><img class="poster" src="images/babyDriver.png"/></a>
+  <a href="https://ok.ru/video/31611685406?fromTime=0" target="_blank" alt="People Under the Stairs"><img class="poster" src="images/puts.png"/></a>
+  <a href="https://docs.google.com/file/d/0B9E27lIdcg32b2R1S015UmJxVEE/edit"><img class="poster" src="images/zombieland.png"></a>
+  <a href="https://docs.google.com/file/d/0B25oZ9GkqHTlb2k0THJpOEt0d2M/view" target="_blank"><img class="poster" src="images/superTroopers.png" alt="Super Troopers"/></a>
+  <a href="https://docs.google.com/file/d/0B9K6IETV7YljWjhObWxsZ09YRGc/edit" target="_blank"><img class="poster" src="images/fargo.png" alt="Fargo"/></a>
+</div>
+<br>
+<!--  CHEESY MOVIES  -->
+<div class="container">
+  <p>We have films that are so <a href=cheesy.html id="cheesy">cheesy</a>, they are actually <strike>good</strike> not half bad.</p>
+  <a href="https://docs.google.com/file/d/0BzA84spRUpoVM0R5SlhZUi0xejg/edit" target="_blank"><img class="poster" src="images/swordfish.png"></a>
+  <a href="http://entervideo.net/watch/3c28722fb0afa7a" target="_blank"><img class="poster" src="images/sharknado5.png"/></a>
+  <a href="https://www.youtube.com/watch?v=2MRJmESghuA" target="_blank"><img class="poster" src="images/stop.png"/></a>
+  <a href="https://www.youtube.com/watch?v=3zebJ_NoduE" target="_blank"><img class="poster" src="images/faceoff.png"/></a>
+  <a href="https://www.youtube.com/watch?v=oByMeAfwARs" target="_blank"><img class="poster" src="images/roadhouse.png" /></a>
+  <a href="https://docs.google.com/file/d/0Bzeui4YS78xLSHZ4Tmw0aGlzRHc/edit?pli=1" target="_blank"><img class="poster" src="images/starshipTroopers.png"></a>
+  <a href="https://docs.google.com/file/d/0ByzqY31zo0LmeFVmU2diSHZSWkU/preview" target="_blank"><img class="poster" src="images/scorpionKing.png"></a>
+  <a href="https://docs.google.com/file/d/0BwdtuVFrjAeTLW1XVDc2UW5ZLVE/view" target="_blank"><img class="poster" src="images/johnnyEnglishReborn.png"></a>
+  <a href="https://drive.google.com/file/d/0B3vvOPeztmheOGRHNDNXX05kOTA/view" target="_blank"><img class="poster" src="images/napoleon.png"></a>
+  <a href="https://docs.google.com/file/d/0Bx9B_pgNq3TVU2g0RWZWTTMtYWc/preview" target="_blank"><img class="poster" src="images/getShorty.png"></a>
+  <a href="https://docs.google.com/file/d/0B5_Bp4tBVzWTRE02QzNMLVUzMXc/edit?pli=1" target="_blank"><img class="poster" src="images/taken.png"></a>
+  <a href="https://docs.google.com/file/d/0B8Iplw9jHNEqbUtsQTc5cDk4RzQ/edit" target="_blank"><img class="poster" src="images/theyLive.png"></a>
+</div>
+<br>
+<!-- GOD AWFUL MOVIES  -->
+<div class="container">
+  <p>Movies that are just <a href="godawful.html" id="godAwfulText">God awful</a> and should have never been made.</p> 
+  <a href="https://drive.google.com/file/d/0B0nHcH9oCLKwVHlhQmgyUldOUkk/view" target="_blank"><img class="poster" alt="The Room" src="images/theRoom.png"/></a>
+  <a href="https://drive.google.com/file/d/0Bw5xNRsU0ngbZGxSczhUX2dRZEk/preview" target="_blank"><img class="poster" src="images/zoolander2.png"></a>
+  <a href="https://www.youtube.com/watch?v=vxnniFVWnMo" target="_blank" alt="Turf War"><img class="poster" src="images/turfwar.png"/></a>
+  <a href="https://www.youtube.com/watch?v=a3o2CTDZ4cs" targer="_blank" alt="Foodfight!"><img class="poster" src="images/foodfight!.png"/></a>
+  <a href="https://www.youtube.com/watch?v=FKwtGHbpVDU" target="-blank" alt="Son of the Mask"><img class="poster" src="images/sonOfTheMask.png"/></a>
+  <a href="https://www.youtube.com/watch?v=mJP65NQwII8" target="_blank" alt="Sharkboy and Lavagirl"><img class="poster" src="images/sharkboy.png"/></a>
+  <a href="https://oload.info/embed/ILVl7HPuua8/" target="_blank"><img class="poster" src="images/baywatch.png"/></a>
+  <a href="https://docs.google.com/file/d/0B4MqvPThrYNjZE9sX2wwbkRZbXc/view" target="_blank"><img class="poster" src="images/avpr.png"></a>
+  <a href="https://docs.google.com/file/d/0B2PPoClJV5Fcc25laThnUFhYTzg/preview" target="_blank"><img class="poster" src="images/transformersDark.png"></a>
+  <a href="https://vimeo.com/113348533" target="_blank"><img class="poster" src="images/grumpyCats.png"></a>
+  <a href="https://player.vimeo.com/video/131928665" target="_blank"><img class="poster" src="images/queenOf.png"></a>
+  <a href="https://oload.stream/embed/lFZP5GL1K3g/" target="_blank"><img class="poster" src="images/leatherface.png"></a>
+</div>
+<br>
+<!--   WTF MOVIES   -->
+<div class="container">
+  <p> Movies that will make you wonder <a href="wtf.html" id="wtfText">what</a>... the... f*^%... did I just watch?</p> 
+  <a href="https://www.youtube.com/watch?v=jahWqqBvYSM" target="_blank" alt="Showgirls"><img class="poster" src="images/showgirls.png"/></a>
+  <a href="https://www.youtube.com/watch?v=oK-2_OsBe0s" target="_blank" alt="Eraserhead"><img class="poster" src="images/eraserhead.png"/></a>
+  <a href="https://drive.google.com/file/d/0By5BTox4SLgUTk1ZdzNRRTZxeWs/view" target="_blank"><img class="poster" src="images/sausageparty.png"/></a>
+  <a href="https://www.youtube.com/watch?v=LKPghZ5cc_E" target="_blank" alt="High-Rise"><img class="poster" src="images/highrise.png"/></a>
+  <a href="https://www.youtube.com/watch?v=bdXGhsAynGI" target="_blank" alt="Holy Mountain"><img class="poster" src="images/holymountain.png"/></a>
+  <a href="https://drive.google.com/file/d/0By2tceGnAhGZYzAyNVR2bzNaUEk/view" target="_blank" alt="tuskMovie"><img class="poster" src="images/tusk.png" alt="Tusk"/></a>
+  <a href="https://docs.google.com/file/d/0B4MRdlS12_MaZmIxX004dldkcmc/edit" target="_blank"><img class="poster" src="images/deathProof.png" alt="Death Proof"></a>
+  <a href="https://oload.info/embed/XKco0I00VWc/" target="_blank"><img class="poster" src="images/pumpkin.png"></a>
+  <a href="https://docs.google.com/file/d/0B7GLQq_W1BI1bE5DWHlkeGtZTVE/edit" target="_blank"><img class="poster" src="images/nightcrawler.png"></a>
+  <a href="https://docs.google.com/file/d/0B1eWsKtz3ABkQ3JoU2NPYWF5d00/edit" target="_blank"><img class="poster" src="images/hobo.png"></a>
+  <a href="https://docs.google.com/file/d/0B3e_m5-GzQkeY1JNdFZTTmZCRDg/edit" target="_blank"><img class="poster" src="images/mouth.png"></a>
+  <a href="https://drive.google.com/file/d/0B7GLQq_W1BI1UXdFdzNsZzY1blU/view" target="_blank"><img class="poster" src="images/memento.png"></a>
+  <a href="https://drive.google.com/file/d/0B0a9snsN3g8mNnpNYkRBcVBqQVU/view" target="_blank"><img class="poster" src="images/hardcoreHenry.png"></a>
+</div>
+<br>
+<!--  GROSS MOVIES  -->
+<div class="container">
+  <p>Films so <a href="gross.html" id="grossText">gross</a>, that one viewing is enough to sustain you for a lifetime.</p>
+  <a href="https://tvad.me/embed-zmg8m2bmumwe-1200x500.html" target="_blank"><img class="poster" src="images/pink.png"/></a>
+  <a href="http://entervideo.net/watch/dba1b01f7f51923" target="_blank"><img class="poster" src="images/mordum.png"/></a> 
+  <a href="http://vidzi.tv/96fafpsvc5jz.html" target="_blank"><img class="poster" src="images/salo.png"></a>
+  <a href="http://entervideo.net/watch/0fab36d482689a3" target="_blank"><img class="poster" src="images/serbianFilm.png"></a>
+  <a href="http://entervideo.net/watch/e2b3195ec0a30a3" target="_blank"><img class="poster" src="images/cannibalHolocaust.png"></a>
+  <a href="https://drive.google.com/file/d/0B1_EsiTg9AqxTW1CeUliVWR3LTA/view" target="_blank"><img class="poster" src="images/audition.png"></a>
+</div> 
+<br>
+<!--  CLASSIC ALAN SMITHEE MOVIES  -->
+<div class="container">
+  <p><a href="classic.html" id="classicText">Classic</a> Alan Smithee masterpieces that started it all.</p>
+  <a href="http://entervideo.net/watch/a9e6305a27aeb76" target="_blank"><img class="poster" src="images/burnHollywood.png"></a>
+  <a href="https://ok.ru/video/36205038222" target="_blank"><img class="poster" src="images/hellraiser.png"></a>
+  <a href="http://entervideo.net/watch/aa5ff3b6170c2f8" target="_blank"><img class="poster" src="images/deathOfAGunfighter.png"></a>
+</div> 
+<br>
+<br>  
+<!--  FOOTER WITH LINK TO HOME PAGE  -->
+<footer>
+  <div>
+    <p class="main-footer"><a id="alanSmitheeFooter" href="index.html">AlanSmitheePicks.com&copy;</a><br><br>Found a dead link? Have a movie suggestion? <a id="alanSmitheeFooter" href="mailto:alansmithee@alansmitheepicks.com">Contact Us!</a>
+    </p>
+  </div>
+  <br>
+  <br>
+  <div>
+    <p id="disclaimer">Disclaimer: We do not host any films, media files (avi, mov, flv, mpg, mpeg, divx, dvd, rip, mp3, mp4, torrent, ipod, psp) on our server.  We simply scour the internet and point you in the right direction.
+    </p>
+  </div>
+</footer>
+<!--  Link to JavaScript  -->
+  <script src="main.js"></script>
+<!--  Google AdSense  -->
+  <script>
+  (adsbygoogle = window.adsbygoogle || []).push({
+    google_ad_client: "ca-pub-6998110511327154",
+    enable_page_level_ads: true
+  });
+  </script>
 </body>
 </html>

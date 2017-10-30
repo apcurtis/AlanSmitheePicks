@@ -1,8 +1,943 @@
-head{
-	
+                                  /*  NO BOOTSTRAP WAS USED  */
+                                  /*  SORT ALPHABETICAL ORDER  */
+/*  A  */                    
+#aboutText {
+	margin-left: 5%;
+	margin-right: 5%;
+	flex: wrap;
 }
-h1 {
-	background-color: Crimson;
+                                  /*  Mailto Link in FOOTER  */
+#alanSmitheeFooter {
+	color: #66FCF1;
+}
+                                 /*  ARTICLE DIV CONTAINER ON A TO Z  */
+.aToZSort {
+	text-align: left;
+	display: inline-block;
+	vertical-align: top;
+	width: 80%;
+	border: #45A29E solid;
+	border-radius: 3px;
+
+}
+/*#testBorder {
+	text-align: center;
+	display: inline-block;
+	vertical-align: top;
+	margin-left: auto;
+	margin-right: auto;
+	border: green solid;
+	border-radius: 3px;
+	position: relative;
+}*/
+.aToZNav ul {
+	list-style-type: none;
+	padding: 0;
+}
+#aToZHeader {
+	padding: 1em;
+	color: #66FCF1;
+	background-color: #1F2833;
+	clear: left;
+	text-align: center;
+	border: solid #C5C6C7;
+	border-radius: 10px;
+	margin-right: 25%; 
+	margin-left: 25%;
+}
+/*  DIV FOR LETTERS A TO Z  */
+.aToZNav {
+	float: left;
+	max-width: 160px;
+	margin-top: 1.5%;
+	margin-left: 1.5%;
+	margin-right: 1.5%;
+	padding: 1em;
+	display: inline-block;
+	vertical-align: top;
+	width: 20%;
+	background-color: #66FCF1;
+	border-radius: 12px;
+}
+#aToZLetters {
+	border-width: 10px;
+	text-align: center;
+	margin: auto;
+	font-size: 26px;
+}
+.aToZNav ul{
+	list-style-type: none;
+	padding: 0;
+}
+
+                                /*  GOD AWFUL IN MAIN NAV BAR  */
+#awful a:hover{
+	background-color: white;
+}  
+/*  B  /*
+                                        /*  BODY  */
+body{
+	background-color: #0B0C10;
+	margin: 0;
+}
+                          /*  FOR ROULETTE GENERATOR, NEED TO SORT  */
+#btn {
+  height: 30px;
+  background-color: #1F2833;
+  border: none;
+  color: #66FCF1;
+  width: 30%;
+  box-shadow: 0px 0px 20px 4px teal;
+  margin: 50px 0px;
+}
+/*  C  */
+                               /*  CHEESY TEXT WORD ON INTRO PAGE  */
+#cheesy{
+	text-decoration: none;
+	color: yellow;
+}
+/*  CLASSIC TEXT ON HOME PAGE  */
+#classicText {
+	color: burlywood;
+	text-decoration: none;
+}
+#contactUs {
+	color: white;
+}
+                                  /*  CONTAINER FOR DIVS  */
+.container {
+	margin-left: 20%;
+	margin-right: 20%;
+	background-color: #1F2833;
+	text-align: center;
+	border-radius: 10px;
+	border-color: #C5C6C7;
+	border-style: solid;
+	border-width: .5%;
+}
+                               /*  CONTAINER FOR FAVORITES  */
+.containerFav {
+	margin-left: 15%;
+	margin-right: 15%;
 	text-align: center;
 
+}
+                              /*  HOME NAV ON HOME PAGE  */
+#current0 {
+	background-color: #C5C6C7;
+}
+                       /*  FAVORITES NAV BAR ON FAVORITES PAGE  */
+.current1 {
+	background-color: #00FF00;
+}
+/*  BACKGROUND COLOR ON NAV BAR WHILE ON FAVORITES PAGE  */
+.current2 {
+	background-color: #FF0;
+}
+/*  BACKGROUND COLOR ON NAV BAR WHILE ON GODAWFUL PAGE  */
+.current3 {
+	background-color: white;
+}
+/*  BACKGROUND COLOR ON NAV BAR WHILE ON WTF PAGE  */
+.current4 {
+	background-color: fuchsia;
+}
+/*  BACKGROUND COLOR ON NAV BAR WHILE ON GROSS PAGE  */
+.current5 {
+	background-color: #F00; 
+}
+/*  BACKGROUND COLOR ON NAV BAR WHILE ON CLASSIC PAGE  */
+.current6 {
+	background-color: burlywood;
+}
+/*  BACKGROUND COLOR ON NAV BAR WHILE ON A TO Z PAGE  */
+.current7 {
+	background-color: darkviolet; 
+}
+/*  BACKGROUND COLOR ON NAV BAR WHILE ON GAME PAGE  */
+.current8 {
+	background-color: orange;
+}
+/*  BACKGROUND COLOR ON NAV BAR WHILE ON ROULETTE PAGE  */
+.current9 {
+	background-color: crimson;
+}
+/*  BACKGROUND COLOR ON NAV BAR WHILE ON DONATE PAGE  */
+.current10 {
+	background-color: #009CDE; 
+}
+/*  BACKGROUND COLOR ON NAV BAR WHILE ON ABOUT PAGE  */
+.current11 {
+	background-color: darkgoldenrod;
+}
+/*  D  */
+                            /*  DESCRIPTION ON ROULETTE  */
+#descrip {
+    text-align: left;
+    text-indent: 20px;
+    line-height: 1.7em;
+    font-size: 19px;
+    color: #45A29E;
+}
+                        /*  DISCLAIMER AT THE BOTTOM OF PAGE  */
+#disclaimer {
+	text-align: center;
+	padding: 0 5px 0 5px;
+	color: #1F2833;
+}
+                                 /*  DONATE IN MAIN NAV BAR  */
+#donate a:hover{
+	background-color: #C1C1C1;
+}
+#donateText {
+	flex: wrap;
+	margin-left: 5%;
+	margin-right: 5%;
+}
+/*  F  */
+                         /*  FAVORITES HOVER ON MAIN NAV BAR  */
+.favorites:hover {
+	background-color: #0F0;
+}
+                             /*  FAVORITES TEXT ON MAIN INDEX  */
+#favoritesText{
+	color: #00FF00;
+	text-decoration: none;
+} 
+                             /*  FIGCAPTION  */
+figcaption {
+	text-align: center;
+	color: #45A29E;
+	caption-side: bottom;
+	background-color: rgba(0, 0, 0, 0.8);
+	display: table-caption;
+	padding: 5px 0px 5px;
+	height: 1.6em;
+	width: 121px;
+	float: left;
+	z-index: 1;
+	margin-top: -2.4em;
+	text-overflow: ellipsis;
+	white-space: wrap;
+	overflow: hidden;
+	font-size: .75em;
+	border-radius: 2px;
+}
+figcaption:hover {
+	text-overflow: inherit;
+	overflow: visible;
+	white-space: wrap;
+}
+                        /*  FIGURE CONTAINER  */
+figure {
+	float: left;
+	padding: 0px;
+	border-radius: 5px;
+	border: #1F2833 2px solid;
+	font-size: .875em;
+	display: table;
+	width: 121px;
+	margin: 1%;
+}
+               /*  FIGURE POSTER ON MOUSE HOVER  */
+figure:hover {
+	border-radius: 5px;
+	border: #66FCF1 2px solid;
+}
+                       /*  IMAGES IN FIGURES  */
+figure img {
+	display: block;
+	position: relative;
+	z-index: -1;
+	box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.4);
+	width: 100%;
+	max-width: 121px;
+	height: 181px;
+	width: 121px;
+}
+
+
+                               /*  Main Footer for each page */
+footer{
+	text-align: center;
+	text-decoration: none;
+}  
+
+
+
+.flexContainAlpha{
+	padding: .2em;
+	color: black;
+	background-color: darkviolet;
+	clear: left;
+	text-align: center;
+	border: solid #C5C6C7;
+	border-radius: 10px;
+	margin-right: 25%; 
+	margin-left: 25%;
+	font-family: "Cinzel Decorative";
+	font-size: 1em;
+}
+.flexContainAlpha {
+	display: -webkit- flex;
+	display: flex;
+	-webkit-flex-flow: row wrap;
+	flex-flow: row wrap;
+	text-align: center;
+}
+.flexContainAlpha > * {
+	padding: 15px;
+	-webkit-flex: 1 100%;
+	flex: 1 100%;
+}
+
+
+
+.flexContainAbout{
+	padding: .2em;
+	color: black;
+	background-color: darkgoldenrod;
+	clear: left;
+	text-align: center;
+	border: solid #C5C6C7;
+	border-radius: 10px;
+	margin-right: 25%; 
+	margin-left: 25%;
+	font-family: "Walter Turncoat";
+	font-size: 1em;
+}
+.flexContainAbout {
+	display: -webkit- flex;
+	display: flex;
+	-webkit-flex-flow: row wrap;
+	flex-flow: row wrap;
+	text-align: center;
+}
+.flexContainAbout > * {
+	padding: 15px;
+	-webkit-flex: 1 100%;
+	flex: 1 100%;
+}
+.flexContainCheesy{
+	padding: .2em;
+	color: black;
+	background-color: #FF0;
+	clear: left;
+	text-align: center;
+	border: solid #C5C6C7;
+	border-radius: 10px;
+	margin-right: 25%; 
+	margin-left: 25%;
+	font-family: 'Bad Script';
+	font-size: 1em;
+}
+.flexContainCheesy {
+	display: -webkit- flex;
+	display: flex;
+	-webkit-flex-flow: row wrap;
+	flex-flow: row wrap;
+	text-align: center;
+}
+.flexContainCheesy > * {
+	padding: 15px;
+	-webkit-flex: 1 100%;
+	flex: 1 100%;
+}
+.flexContainClassic {
+	padding: .2em;
+	color: black;
+	background-color: burlywood;
+	clear: left;
+	text-align: center;
+	border: solid #C5C6C7;
+	border-radius: 10px;
+	margin-right: 25%; 
+	margin-left: 25%;
+	font-family: "Sofia";
+	font-size: 1em;
+}
+.flexContainClssic {
+	display: -webkit- flex;
+	display: flex;
+	-webkit-flex-flow: row wrap;
+	flex-flow: row wrap;
+	text-align: center;
+}
+.flexContainClassic > * {
+	padding: 15px;
+	-webkit-flex: 1 100%;
+	flex: 1 100%;
+}
+.flexContainDonate {
+	padding: .2em;
+	color: black;
+	background-color: #009CDE;
+	clear: left;
+	text-align: center;
+	border: solid #C5C6C7;
+	border-radius: 10px;
+	margin-right: 25%; 
+	margin-left: 25%;
+	font-family: "Verdana";
+	font-size: 1em;
+}
+.flexContainDonate {
+	display: -webkit- flex;
+	display: flex;
+	-webkit-flex-flow: row wrap;
+	flex-flow: row wrap;
+	text-align: center;
+}
+.flexContainDonate > * {
+	padding: 15px;
+	-webkit-flex: 1 100%;
+	flex: 1 100%;
+}
+.flexContainFav {
+	padding: .2em;
+	color: black;
+	background-color: #0F0;
+	clear: left;
+	text-align: center;
+	border: solid #C5C6C7;
+	border-radius: 10px;
+	margin-right: 25%; 
+	margin-left: 25%;
+	font-family: 'Permanent Marker', cursive;
+	font-size: 1em;
+}
+
+.flexContainFav {
+	display: -webkit- flex;
+	display: flex;
+	-webkit-flex-flow: row wrap;
+	flex-flow: row wrap;
+	text-align: center;
+}
+.flexContainFav > * {
+	padding: 15px;
+	-webkit-flex: 1 100%;
+	flex: 1 100%;
+}
+.flexContainGod {
+	padding: .2em;
+	color: black;
+	background-color: white;
+	clear: left;
+	text-align: center;
+	border: solid #C5C6C7;
+	border-radius: 10px;
+	margin-right: 25%; 
+	margin-left: 25%;
+	font-family: "Finger Paint";
+	font-size: 1em;
+}
+.flexContainGod {
+	display: -webkit- flex;
+	display: flex;
+	-webkit-flex-flow: row wrap;
+	flex-flow: row wrap;
+	text-align: center;
+}
+.flexContainGod > * {
+	padding: 15px;
+	-webkit-flex: 1 100%;
+	flex: 1 100%;
+}
+.flexContainGross {
+	padding: .2em;
+	color: black;
+	background-color: #F00;
+	clear: left;
+	text-align: center;
+	border: solid #C5C6C7;
+	border-radius: 10px;
+	margin-right: 25%; 
+	margin-left: 25%;
+	font-family: "Nosifer";
+	font-size: 1em;
+}
+.flexContainGross {
+	display: -webkit- flex;
+	display: flex;
+	-webkit-flex-flow: row wrap;
+	flex-flow: row wrap;
+	text-align: center;
+}
+.flexContainGross > * {
+	padding: 15px;
+	-webkit-flex: 1 100%;
+	flex: 1 100%;
+}
+.flexContainWTF {
+	padding: .2em;
+	color: black;
+	background-color: fuchsia;
+	clear: left;
+	text-align: center;
+	border: solid #C5C6C7;
+	border-radius: 10px;
+	margin-right: 25%; 
+	margin-left: 25%;
+	font-family: "Rock Salt";
+	font-size: 1em;
+}
+.flexContainWTF {
+	display: -webkit- flex;
+	display: flex;
+	-webkit-flex-flow: row wrap;
+	flex-flow: row wrap;
+	text-align: center;
+}
+.flexContainWTF > * {
+	padding: 15px;
+	-webkit-flex: 1 100%;
+	flex: 1 100%;
+}
+/*  G  */
+                                     /*  GAME IN NAV BAR  */
+#game a:hover{
+	background-color: #1C86EE;
+}
+                             /*  GAME BODY ON GAME  */
+#gameBody{
+	font-size: 10px;
+} 
+                                /*  GOD AWFUL TEXT ON INDEX  */  
+#godAwfulText{
+	color: white;
+	text-decoration: none;
+}                                                           
+                             /*  GROSS HEADER ON GROSS HTML PAGE  */
+#grosshd{
+	font-family: Nosifer;
+	background-color: black;
+	color:crimson;
+}
+                            /*  GROSS TEXT IN MAIN INDEX HTML  */
+#grossText{
+	color: red;
+	text-decoration: none;
+	font-family: Nosifer;
+}
+/*  H  */
+                                       /*  HEADER  */
+header {
+		text-align: center;
+}
+#homeLink {
+	color: #C5C6C7;
+}
+/*  I  */
+                              /*  IMG ON ROULETTE  */
+#img {
+    border: 15px solid #C5C6C7;
+    box-shadow: 10px 10px 10px #0B0310;
+    display: none;
+    border-radius: 10px;
+}
+                                 /*  INTRO <P> ON INDEX HTML  */
+#intro-p{
+	text-align: center;
+}
+/*  K  */
+                                     /*  KBD INPUT FOR GAME  */
+kbd{
+	display: block;
+	font-size: 40px;
+	padding-top: 0;
+}
+                               /*  REGUlAR KEYS ON GAME INDEX  */
+.key{
+	border: 4px solid #C5C6C7;
+	border-radius: 5px;
+	margin: 1rem;
+	font-size: 1.5rem;
+	padding: 1rem .5rem;
+	transition: all 0.07s;
+	width: 100px;
+	text-align: center;
+	color: white;
+	background: rgba(31, 40, 51, 1);/*(0,0,0,0.4)*/
+	text-shadow: 0 0 5px #C5C6C7;
+}
+                                 /*  KEYS FOR GAME  */
+.keys{
+	display: flex;
+	flex: 1;
+	min-height: 100vh;
+	align-items: center;
+	justify-content: center;
+	margin-top: -15%;
+}
+/*  M  */
+                                /*  MAIN FOOTER  */
+.main-footer {
+	color: white;
+	flex: wrap;
+}
+
+#main-footer:active{
+	color: #C5C6C7;
+}
+#main-footer:visited{
+	color: #C5C6C7;
+}
+               	               /*  Main Header, Consistent each page */
+.main-header {
+	background-color: #1F2833; /*#0B0C10;*/
+	text-align: center;
+	font-family: 'Sedgwick Ave';
+	font-size: 80px;
+	color: #66FCF1;
+	margin: 20px;	
+	border-radius: 12px;
+	padding-top: 10px;
+	flex: 1;
+}
+                              /*  HEADER FOR MOBILE DEVICES  */
+@media screen and (max-width: 365px) {
+	.main-header {
+		font-size: 1.5em;  
+		text-overflow: wrap;
+		flex: wrap;
+	}
+}
+/*  N  */
+.nav{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+                              /*  MAIN NAV BAR  */
+.navbar {
+    float: left;
+    border-right: 1px solid #bbb;
+    background-color: #66FCF1;
+    border-radius: 4px;
+    /*margin: auto;*/
+    text-align: justify;
+    display: inline-block;
+    margin-right: 0;
+}
+                             /*  MAIN NAV BAR LINKS  */
+.navbar a {
+    display: block;
+    text-align: center;
+    padding: 14px 18.5px;
+    text-decoration: none;
+}
+                                /*  MAIN NAV DIV  */
+#navDiv{
+	margin-left: 5px;
+	background-color: #1F2833;
+	margin-right: 5px;
+	margin-top: -10%;
+
+}
+                                   /*  NAV BAR TEXT  */
+.navtext{
+	color: black;
+}
+/*  P  */
+                                       /*  <P>  */
+p {
+	color:#66FCF1;
+	font-size: 1.5em;
+}
+                               /*  DRUMKIT GAME STYLE  */
+.playing{
+	transform: scale(1.1);
+	border-color: #66FCF1;
+	box-shadow: 0 0 10px #66FCF1;
+}
+                                   /*  IMAGE POSTER  */
+.poster{
+	height: 181px;
+	width: 121px;
+}
+/*  R  */
+                                /*  ROULETTE ON MAIN DIV  */
+#roulette a:hover{
+	background-color: #B01714;
+}
+                                 /*  ROULETTE CONTAINER  */
+.rouletteCon {
+  width: 40%;
+  margin: 0 auto;
+  position: relative;
+  text-align: center;
+}
+/*  S  */
+                                       /*  SOUNDS  */
+.sound{
+	font-size: 1.2rem;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	color: #1F2833;
+}
+                         /* Subscript for main header on each page */
+.subscript {
+	font-size: 18px;
+}
+/*  T  */
+                                /*  TITLE ON MOVIE GENERATOR  */
+#title {
+    text-align: center;
+    color: #66FCF1;
+}
+/* Hide the link that should open and close the topnav on small screens */
+.dropdown-content .icon {
+	display: none;
+}
+                            /*  ABOUT ON TOP NAV BAR  */
+#topNavAbout {
+	flex: 1;
+	font-family: "Walter Turncoat";
+	font-weight: bold;
+	line-height: 160%;
+}
+                        /*  ABOUT ON TOP NAV BAR ON HOVER  */
+#topNavAbout:hover {
+	background-color: darkgoldenrod;
+}
+                             /*  A TO Z ON TOP NAV  */
+#topNavAlpha {
+	flex: 1;
+	font-family: "Cinzel Decorative";
+	font-weight: bold;
+	line-height: 160%;
+}
+                         /*  A TO Z ON TOP NAV ON HOVER  */
+#topNavAlpha:hover {
+	background-color: darkviolet;
+}
+                      /*  FLEX AND FONT FOR CHEESY IN NAV BAR  */
+#topNavCheesy {
+	flex: 1;
+	font-family: "Bad Script";
+	font-weight: 900;
+	line-height: 160%;
+	font-size: 1.1em;
+}
+                     /*  TOP NAV CHEESY ON HOVER  */
+#topNavCheesy:hover{
+	background-color: #FF0;
+}
+                  /*  CLASSIC ON TOP NAV BAR  */
+#topNavClassic {
+	flex: 1;
+	font-family: "Sofia";
+	font-weight: bold;
+	font-size: 1.3em;
+	line-height: 150%;
+}
+                  /*  CLASSIC ON TOP NAV BAR ON HOVER  */
+#topNavClassic:hover {
+	background-color: burlywood;
+}
+#topNavDonate {
+	flex: 1;
+	font-family: "Verdana";
+	font-weight: bold;
+	line-height: 170%;
+}
+#topNavDonate:hover {
+	background-color: #009CDE;
+}
+                       /*  CHANGED TEXT ON MAIN NAV BAR  */  
+#topNavFav {
+	font-family: "Permanent Marker";
+	flex: 1;
+	line-height: 160%;
+}
+                         /*  FAVORITE HOVER ON NAV BAR  */
+#topNavFav:hover {
+	background-color: #00FF00;
+}
+                            /*  GAME ON TOP NAV  */
+#topNavGame {
+	flex: 1;
+	font-family: "Monoton";
+	font-weight: bold;
+}
+                         /*  GAME ON TOP NAV ON HOVER  */
+#topNavGame:hover {
+	background-color: orange; 
+}
+                       /*  CHANGED TEXT ON MAIN NAV BAR  */
+#topNavGod {
+	flex: 1;
+	font-family: "Finger Paint";
+	font-size: .86em;
+	font-weight: bold;
+	line-height: 190%;
+}
+                    /*  GOD-AWFUL ON HOVER OVER MAIN NAV BAR  */
+#topNavGod:hover {
+	background-color: white;
+}
+                               /*  NAV BAR GROSS  */
+#topNavGross {
+	flex: 1;
+	font-family: "Nosifer";
+}
+                       /*  GROSS ON MAIN NAV BAR ON HOVER  */
+#topNavGross:hover {
+	background-color: #F00;
+}
+                              /*  Home ICON and TEXT */
+.topNavHome {
+	flex: 1;
+	font-family: "Sedgwick Ave";
+	font-weight: bold;
+	line-height: 150%;
+}
+                            /*  ROULETTE ON TOP NAV  */
+#topNavRoul {
+	flex: 1;
+	font-family: "Marck Script";
+	font-weight: bold;
+	font-size: 1.5em;
+}
+                           /*  ROULETTE ON TOP NAV ON HOVER  */
+#topNavRoul:hover {
+	background-color: crimson;
+}
+                              /*  WTF ON MAIN NAV BAR  */
+#topNavWTF {
+	flex: 1;
+	font-family: "Rock Salt";
+	font-size: .75em;
+	font-weight: bold;
+}
+                         /*  WTF ON MAIN NAV BAR ON HOVER  */
+#topNavWTF:hover {
+	background-color: fuchsia;
+}
+/*  W  */
+                               /*  WTF TEXT ON INDEX HTML  */
+#wtfText{
+	color: fuchsia;
+	text-decoration: none;
+}
+/*  Y  */
+                              /*  YEAR ON ROULETTE GAME  */
+#year {
+    color: #C5C6C7;
+    font-size: 22px;
+    text-align: center;
+    border: 2px solid #1F2833;
+    display: block;
+}
+
+
+
+/* Change the color of links on hover */
+/*.topnav a:hover{
+	background-color: #C5C6C7;
+	color: black;
+}*/
+
+
+
+.dropdown-content {
+	background-color: #66FCF1;
+	overflow: auto;
+	display: flex;
+	margin-top: 15px;
+	margin-left: 2%;
+	margin-right: 2%;
+	border-radius: 10px;
+	text-align: justify;
+
+}
+.dropdown-content:after{
+	content: '';
+}
+/* Style the links inside the navigation bar */
+.dropdown-content a {
+	float: none;
+	display: block;
+	color: black;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 17px;
+}
+/* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
+@media screen and (max-width: 600px) {
+	.topnav a:not(:first-child) {display: none;}
+	.topnav a.icon {
+		float: right;
+		display: block;
+	}
+}
+/* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
+@media screen and (max-width: 600px) {
+	.topnav.responsive {position: relative;}
+	.topnav.responsive .iconJS {
+		position: absolute;
+		right: 0;
+		top: 0;
+	}
+	.topnav.responsive a {
+		float: none;
+		display: block;
+		text-align: left;
+	}
+}
+
+@media screen and (max-width:1161px) {
+.dropbtn {
+    background-color: #C5C6C7;
+    color: black;
+    padding: 16px;
+    font-size: 1.5em;
+    cursor: pointer;
+    border-radius: 10px;
+    border: 3px solid #66FCF1;
+}
+
+.dropbtn:hover, .dropbtn:focus {
+    background-color: #66FCF1;
+    color: #0B0C10;
+    border: 3px solid #C5C6C7;
+    	
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    min-width: 100px;
+    margin-left: 10%;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #66FCF1;
+    min-width: 160px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+button img {
+	height: 15px;
+}
+
+
+.show {display:block;}
+}
+@media screen and (min-width:1161px) {
+	.dropbtn {
+		display: none;
+	}
 }
